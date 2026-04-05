@@ -41,10 +41,14 @@ const About = ({isDarkMode}) => {
          transition={{duration: 0.6, delay: 0.8}}
          >
             <p className='mb-10 max-w-2xl font-Ovo'>
-                I am experienced Frontend Developer with over 5 years of
-                professional experience in the field. Throughout my carrer I have
-                had the privilege of collaborating with prestigious organizations,
-                contributing to their success and growth.
+               I’m a reliable virtual assistant who keeps your day organized and your business running smoothly. 
+               I manage calendars and emails, support projects from start to finish, handle task workflow management, 
+               and handle travel planning with attention to detail. I also provide research, administrative support, 
+               timely client follow-ups, accurate spreadsheet reporting, and tech support including Zapier automation to 
+               simplify repetitive tasks and connect multiple apps so your systems work together faster and more efficiently. 
+               In addition, I build and manage e-commerce stores in Shopify and use WordPress to build and optimize websites. 
+               With a strong customer support background, I communicate clearly, professionally, and in a friendly manner, 
+               helping you stay focused on growing your business.
             </p>
                 <motion.ul 
                 className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl list-none no-underline'
@@ -73,11 +77,11 @@ const About = ({isDarkMode}) => {
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.6, delay: 1.5}} 
-                className="flex items-center gap-3 sm:gap-5">
+                className="flex flex-wrap items-center  gap-3 sm:gap-5 md:px-[25]">
                   {toolsData.map((tool, index)=>(
                        <motion.li
                        whileHover={{scale: 1.1}}
-                       key={index} className="flex items-center justify-center w-12
+                       key={index} className="flex items-center justify-center w-11
                        sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer
                        hover:-translate-x-1 duration-500 hover:shadow-smblack">
                         <Image src={tool} alt="tool" className='w-5 sm:w-7'/>

@@ -19,14 +19,14 @@ const Header = () => {
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.6, delay: 0.3}}
        className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
-        Hi! I'm Ehi Bello <Image src={assets.hand_icon} alt="" 
+        Virtual Exective Assistant <Image src={assets.hand_icon} alt="" 
         className='w-6' /></motion.h3>
         <motion.h1
          initial={{y: -30, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.8, delay: 0.5}} 
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Frontend web developer based in Nigeria.
+            Hi, I'm Ehigiamusoe Bello
             </motion.h1>
             <motion.p
             initial={{opacity: 0}}
@@ -34,8 +34,10 @@ const Header = () => {
             transition={{duration: 0.6, delay: 0.7}}
 
             className='max-w-2xl mx-auto font-Ovo'>
-                I am a frontend developer from Lagos, Nigeria with 6 years of experience
-                in multiple establishments like Paylesslpg, redeemerslightbritishacademy.
+                A skilled and reliable Virtual Assistant helping busy founders, remote teams,
+                 and business owners stay organized, save time, and manage their operations effectively.
+
+            I handle admin, tech, and project tasks so you can focus on what matters most growing your business.
             </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a
