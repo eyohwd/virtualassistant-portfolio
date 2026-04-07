@@ -160,7 +160,7 @@ export const workData = [
 
 export const serviceData = [
     { icon: assets.googlespace_icon, title: 'Google Workspace', description: 'Docs, Sheet, Calender, Drive', link: '' },
-    { icon: assets.crm_icon, title: 'CRM Tools', description: 'Customer support (Intercom CRM, Hubspot, Zendesk)', link: '' },
+    { icon: assets.crm_icon, title: 'CRM Tools', description: 'Customer support (Intercom, Hubspot, Zendesk)', link: '' },
     { icon: assets.projectmanagement_icon, title: 'Project Management', description: 'ClickUp, Trello, Asana', link: '' },
    
 ]
