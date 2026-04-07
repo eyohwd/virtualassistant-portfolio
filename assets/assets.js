@@ -60,6 +60,7 @@ import hubspot_icon from './hubspot.png';
 import loom_icon from './loom.png';
 import lightshot_icon from './lightshot.png';
 import chatgpt1_icon from './chatgpt1.png';
+import zendesk_icon from './zendesk.png';
 
 
 export const assets = {
@@ -125,6 +126,7 @@ export const assets = {
     loom_icon,
     lightshot_icon,
     chatgpt1_icon,
+    zendesk_icon,
 
 };
 
@@ -197,4 +199,5 @@ export const toolsData = [
     assets.loom_icon,
     assets.lightshot_icon,
     assets.chatgpt1_icon,
+    assets.zendesk_icon,
 ];
